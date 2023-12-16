@@ -1,0 +1,91 @@
+:root {
+  --purple: #302b7e;
+  --grey: #333333;
+  --blue-accent: #57c0e9;
+  --red-accent: #d0208c;
+}
+
+/* navigation */
+.navbar {
+  background-color: var(--purple);
+}
+
+.navbar-brand img {
+}
+
+.navbar-brand {
+  color: var(--blue-accent);
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  /* overriding BS default styles */
+  color: var(--blue-accent);
+}
+
+.navbar-toggler {
+  color: var(--blue-accent);
+}
+
+/* HUD */
+.main-title {
+  color: var(--blue-accent);
+  line-height: 37px;
+  font-size: 28px;
+  letter-spacing: -1px;
+  opacity: 0.9;
+}
+
+.btn {
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  transition: all 0.3s ease;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px 38px;
+  border-radius: 3px;
+  border-color: var(--red-accent);
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: var(--red-accent);
+}
+
+#gameButton,
+.next-btn {
+  border-color: var(--blue-accent);
+  color: #222;
+}
+
+#gameButton:hover,
+.next-btn:hover {
+  background-color: var(--blue-accent);
+}
+
+/* game screen */
+.game-screen {
+  height: 35vw;
+}
+
+#left {
+  background-color: var(--purple);
+}
+
+#right {
+  background-color: var(--grey);
+}
+
+i {
+  color: var(--red-accent);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.5rem;
+}
+
+i:hover {
+  color: var(--blue-accent);
+}
