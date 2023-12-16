@@ -8,7 +8,7 @@ function initialize() {
   document.getElementById("level").innerHTML = levelNum;
   document.getElementById("highscore").innerHTML = highscore;
   document.getElementById("narration").innerHTML =
-    "<button id='gameButton' onclick='startGame()'>Start Game</button>";
+    "<button id='gameButton' class='btn' onclick='startGame()'>Start Game</button>";
   document.getElementById("left").innerHTML = "";
   document.getElementById("right").innerHTML = "";
 }
